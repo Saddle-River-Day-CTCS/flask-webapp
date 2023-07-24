@@ -1,0 +1,43 @@
+<!-- This is a comment, just like in Python, HTML has comments so we can write in our code-->
+
+<!-- everything within style is CSS code -->
+<style>
+
+    h1 {
+       color: white;
+       background-color: blue;
+       border-style: solid;
+       }
+
+    h1:hover{
+        color: blue;
+        background-color: white;
+        border-style: dashed;
+       }
+    
+</style>
+
+<!-- html is the structure, css is the style -->
+<!-- Header 1 tag -->
+<h1>Braedons Website</h1>
+
+<form method="GET" action="home.html">
+<h4>Username: </h4>
+<input type="">
+
+<h4>Password: </h4>
+<input type="password">
+<br>
+<br>
+<input type="submit">
+</form>
+  
+<!--GET vs POST req.-->
+<!--
+GET requests serve no new info to html template
+
+POST req. post info, typically from forms, to the server to respond with a template that references such information.
+
+ex. think ab login form. POST req. send info to backend to check if user and pass is correct, where a GET req. is used to send un-logged in user to the log in page
+
+-->
